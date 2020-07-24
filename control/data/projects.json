@@ -1,0 +1,264 @@
+{
+	"lists":{
+				"specs":{
+							"cas":{"prefix":"CAS-No", "type":"type" }
+							,"cahs":{"prefix":"CAS-No", "type":"pick", "list":["1", "2"] }
+						}
+				,"pricefactors":{
+									"1":{"specs":["mass", "volume"], "features":"grade"}
+								}
+				,"features":{
+									"grade":["AR", "CP"]
+				}
+				,"sizes":[
+								{"name":"2.5L"}
+								,{"name":"5L"}
+								,{"name":"25L"}
+								,{"name":"500g"}
+								,{"name":"1kg"}
+								,{"name":"25kg"}
+							]
+				,"categories":{}
+				,"images":{}
+				,"hazards":[
+							{ "name":"corrosive", "image":"hazard/corrosive.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"environmental", "image":"hazard/environmental.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"explosive", "image":"hazard/explosive.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"flammable", "image":"hazard/flammable.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"gas-bottles", "image":"hazard/gas-bottles.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"harmful", "image":"hazard/harmful.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"human-health", "image":"hazard/human-health.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"irritant", "image":"hazard/irritant.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"oxidizing", "image":"hazard/oxidizing.gif",   "description" :"Highly flammable liquid & Vapour"}
+							,{ "name":"toxic", "image":"hazard/toxic.gif",   "description" :"Highly flammable liquid & Vapour"}
+				]
+				,"state":"place links to icons for liquid, solid, gas at room temp"
+			}
+	,"formats":"place possible templates here"
+
+	
+
+	,"templates":{
+			"hazards": { "tag":"img"  }
+			,"small":{ 
+				"0":{"tag":"article", "attributes":{"data-id":"key", "data-name":"name" },
+						"filter":{
+									 "id":{"from":"offering", "content":"id" }
+									,"name":{"from":"names", "content":"name"} 
+									,"sizes":{"from":"specs", "content":"sizes"}
+									,"prices":{"from":"prices", "content":"unit"}
+									,"note":{"from":"info", "content":"description"}
+									,"thumb":{"from":"media", "content":"images"}
+
+								} ,
+				  "content":[ 
+				{"tag":"figure", "content":"images", "from":"media" }
+				,{"tag":"footer", "content":"hazards", "from":"features"}
+				,{"tag":"header", "content":[  
+													{"tag":"h2", "content":"name", "from":"names"}
+													,{"tag":"h3", "content":"client", "from":"names"}
+													,{"tag":"div",  "attributes":{"class":"details"}, "content":[
+																									{"tag":"span", "content":"enddate", "from":"time"}
+																								  , {"tag":"span", "content":"amount", "from":"specs"}
+																								]
+													 }
+													
+													,{"tag":"p", "content":"description", "from":"info"}
+													,{"tag":"div", "content":[
+																				{"tag":"a","attributes":{"class":"open"},  "content":"More Details", "openid":"project" }
+																			]
+													}
+												]  
+					}
+
+				]}				
+			}
+			,"big":{ 
+				"0":{"tag":"article" 
+					, "content":[ 
+					{"tag":"figure", "content":"images", "from":"media" }
+					,{"tag":"header", "content":[  
+								{"tag":"h2", "content":"name", "from":"names"}
+								,{"tag":"h3", "content":"client", "from":"names"}
+								,{"tag":"div",  "attributes":{"class":"details"}, "content":[
+																				
+																			  {"tag":"span", "content":"enddate", "from":"time"}
+																			, {"tag":"div", "content":"amount", "from":"specs"}
+
+																			]
+								 }
+								,{"tag":"p", "content":"city", "from":"location"}
+								,{"tag":"p", "content":"description", "from":"info"}
+								,{"tag":"div", "content":[
+															  {"tag":"div", "content":"person", "from":"contact"}
+															, {"tag":"div", "content":"phone", "from":"contact"}
+															, {"tag":"div", "content":"email", "from":"contact"}
+
+														]
+								}
+							]  
+					}	
+						
+				]}				
+			}
+		
+	}
+	,"offering":{
+		"1":{
+		"names":{ "name":"Construction of Shopping Complex" , "sub":"Paving and Concrete", "client":"Denel Properties"}
+		,"time":{ "enddate":"2005"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R100,000.00" }
+		,"contact":{"person":"Frank Mashabela", "phone":"073 728 6622", "email":""}
+		}
+		,"2":{
+		"names":{ "name":"Supply of plumbing material" ,  "client":"Ekurhuleni Metro Municipality"}
+		,"time":{ "enddate":"2006"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R30,000.00" }
+		,"contact":{"person":"Linda Nthate", "phone":["078 220 6848", "011 999 1523"], "email":""}
+		}
+
+		,"3":{
+		"names":{ "name":"Demolitions" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2007"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R180,000.00" }
+		}		
+		,"4":{
+		"names":{ "name":"Supply of Chemicals" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2008"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R200,000.00" }
+		}			
+		,"5":{
+		"names":{ "name":"Renovation of Clinic" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2009"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R30,000.00" }
+		}			
+		,"6":{
+		"names":{ "name":"Landscaping" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2009"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R165,000.00" }
+		}
+		,"7":{
+		"names":{ "name":"Landscaping" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2010"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R100,000.00" }
+		}	
+		,"8":{
+		"names":{ "name":"Construction of Paving" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2010"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R950,000.00" }
+		}
+		,"9":{
+		"names":{ "name":"Building Renovations/ Sports field" ,  "client":"Sports Trust"}
+		,"time":{ "enddate":"2010"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R375,000.00" }
+		,"contact":{"person":"Dida Malulyck", "phone":"072 714 5951", "email":""}
+		}		  			
+		,"10":{
+		"names":{ "name":"Renovation on existing houses" ,  "client":"Dept of public Works"}
+		,"time":{ "enddate":"2011"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"specs":{ "amount":"R460,000.00" }
+		,"contact":{"person":"Amin Jabaar", "phone":"011 296 2600", "email":""}
+		}  			
+		,"11":{
+		"names":{ "name":"Construction of residentials", "sub":"Brickwork" ,  "client":"Dept of public Works"}
+		,"time":{ "enddate":"2011"}
+		,"info":{ "description":"" }
+		,"specs":{ "amount":"R260,000.00" }
+		,"contact":{"person":"Frank Mashabela", "phone":"073 728 6622", "email":""}
+		} 
+		,"12":{
+		"names":{ "name":"Plumbing"}
+		,"time":{ "enddate":"2011"}
+		,"specs":{ "amount":"R261,000.00" }
+		} 		
+		,"13":{
+		"names":{ "name":"Upgrade of homes"}
+		,"time":{ "enddate":"2011"}
+		,"specs":{ "amount":"R 120 000.00" }
+		}		
+		,"14":{
+		"names":{ "name":"Upgrade of  clinic"}
+		,"time":{ "enddate":"2011"}
+		,"specs":{ "amount":"R580 000.00" }
+		}	
+		,"15":{
+		"names":{ "name":"Supply of Electrical materials"}
+		,"time":{ "enddate":"2011"}
+		,"specs":{ "amount":"R433 000.00" }
+		}	
+		,"16":{
+		"names":{ "name":"Refurbishment of Nigel Traffic Dept",  "client":"Nigel Traffic Dept"}
+		,"time":{ "enddate":"2011"}
+		,"specs":{ "amount":"R236 000.00" }
+		}
+		,"17":{
+		"names":{ "name":"Contsruction of cattle handling Facility"}
+		,"time":{ "enddate":"2015"}
+		,"specs":{ "amount":"R1 835 000.00" }
+		}	
+		,"18":{
+		"names":{ "name":"Refurbishment and Maintenance of Nursing Home"}
+		,"time":{ "enddate":["2017","2003"]}
+		,"specs":{ "amount":"R 15 353 000.00" }
+		,"location":{"city":"Eastern Cape"}
+		}
+		,"19":{
+		"names":{ "name":"Refurbishment and maintenance Of six clincs"}
+		,"time":{ "enddate":"2018"}
+		,"specs":{ "amount":"R 14 081 035.18" }
+		,"location":{"city":"Free State"}
+		,"contact":{"person":"David Mkandla", "phone":"0823301258", "email":""}
+		}			
+		,"20":{
+		"names":{ "name":"Construction of Tlotlanang Creche",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"specs":{ "amount":"R 3 800 000.00" }
+		,"location":{"city":"Lephalale"}
+		,"contact":{"person":"Yonela", "phone":" 078 474 5414", "email":""}
+		}
+		,"21":{
+		"names":{ "name":"Construction of Ablution in Tsebo school",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"specs":{ "amount":"R 1 471 000.00" }
+		,"contact":{"person":"Phuthadithjaba", "phone":"011 800 5760", "email":""}
+		}
+		,"22":{
+		"names":{ "name":"Construction of Ablution In Vulindlela school",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"specs":{ "amount":"R 2 014 000.00" }
+		,"contact":{"person":"Unathi Pendu", "phone":"073 229 8171", "email":""}
+		,"location":{"city":"Harrismith"}
+		}
+		,"23":{
+		"names":{ "name":"Construction of Ablution In Ithlahaneleng school",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"specs":{ "amount":"R 1 422 000.00" }
+		,"contact":{"person":"Unathi Pendu", "phone":"073 229 8171", "email":""}
+		,"location":{"city":"Harrismith"}
+		}
+}
+
+
+
+
+}

@@ -1,0 +1,74 @@
+{
+    "specsnote":"list all available units and laws, standard units list all standard specs e.g. dress sizes, shoe sizes, 100mL , 200ml, quantities 1 -12, 24, 32, etc"
+    ,"buttons":"list all buttons to be used -e.g, add to cart, add to quote, link to contact form"
+    ,"control":"place apis and dependencies, rules  -- recurvise array of resources, additional functions on count --> slides, cart, quote, links"
+}
+
+
+{
+    "profile":  {
+        "domain":{"local": "http://localhost/bxeki/clients/manyaka", "test":"https://bxeki.com", "live":"https://manyaka.co.za", "mum":"https://satag.co.za/core/api"  }
+        ,"name":"Manyaka Trading"	
+        ,"description":"intro to company"
+        ,"contact":{     "email":[{ "mail":"info@manyaka.co.za", "name":"Info" }
+                                ,{ "mail":"mojalodi@manyaka.co.za", "name":"Mojalodi"}
+                                , { "mail":"tseke@manyaka.co.za", "name":"Tseke" }]
+                        , "tel":[{"country":"27",  "number":"835688170"}]
+                        , "fax":[{"country":"27",  "number":"862295332"}]
+                        , "social":[
+                                         {"url":"https://www.facebook.com/Manyaka-102072051548175"	, "symbol":"&#xf30c;", "name":"Facebook"}
+                                        ,{"url":"https://www.instagram.com/mayakatrading"	, "symbol":"&#xf32d;", "name":"Instagram"}
+                                        ,{"url":"https://wa.me/27835688170"			, "symbol":"&#xf232;", "name":"Whatsapp"}
+                                    ]
+                        , "address":[ {"street":"1235a Dumisa str", "surburb":"Emndeni South", "town":"Soweto", "province":"Gauteng", "country":"", "postal":"1868", "gps":""   }
+                                     ,{"street":"1 La Mouette Bishop Bird str", "surburb":"Wierda Park", "town":"Centurion", "province":"Gauteng", "country":"", "postal":"0157", "gps":""   } 
+                                    ]
+                    }
+        ,"legal":{
+                    "name":"Manyaka Trading Pty ltd"
+                    ,"Company registration No." 	:	"2013/130990/07"
+                    ,"Income Tax Reference"			:	"9229059168"
+                    ,"UIF Reference No."			:	"1957163 / 6"
+                    ,"CIDB CRS No."					:	"109023"
+                    ,"Grade"						:	"6GB PE"
+                    ,"NHBRC Reg No."				:	"35298"
+                    ,"CSD"                			:  	"MAAA 0089948"
+                    ,"Compensation  Reg No."		:	"2610 - 167 – 0512"
+                }
+        ,"finance":{
+                         "bank":[{"bank":"ABSA", "acc":"9150397229", "Branch Code" : "632005" }]
+                    }
+        ,"staff":"DIRECTOR: TSEKE MPHAHLELEMANYAKA TRADING  Pty Ltd: 083 568 8170 E: info@manyaka.co.za    manyakatrading - insta"
+        ,"sitemap":""	
+        ,"buildup":["logo", "header", "menu", "static content", "entice", "call to action", "sidebar", "posts & feed aka cards", "external feeds -apis", "internal links", "external links", "forms", "buttons", "footer", "social links"]
+        ,"importance":"edit, live, delete, order(swap)"
+        ,"navigation":{
+                        "1":[
+                                        {"navstatus":1, "page":1, "section":1, "id":"about" , "name":"Our History", "child":"" }
+                                        ,{"navstatus":1, "page":1, "section":2, "id":"services" , "name":"Services", "child":"" }			
+                                        ,{"navstatus":1, "page":1, "section":5, "id":"projects" , "name":"Projects", "child":"" }
+                                        ,{"navstatus":1, "page":1, "section":1, "id":"contact" , "name":"Contact Us", "child":"" }
+                        ]
+        }
+        ,"ui":{
+                 "color":{ "vdark":"", "dark":"", "mid":"", "light":"", "vlight":"", "extra":"" }
+                 ,"type":{"serious":"", "basic":"", "fun":""}
+                 ,"iconset":{"setname":""}
+                 ,"ascents":""
+                 ,"brand":{"logo":"----files---", "icons":"-----", "patterns":"-----"}
+        }
+        ,"system":{
+                        "language":"en-US"
+                        ,"expires":""
+                        ,"title":"Company Name"
+                        ,"description":"intro to company"
+                        , "default":"<meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+                        ,"head":{
+                                    "must":{ "charset":"UTF-8", "viewport":"width=device-width, initial-scale=1"}
+                                    ,"mustdynamic":{"lang":"en-US", "base":"", "title 60 characters":"", "description 155 characters":""}
+                                    ,"SEO":["Open Graph data og:", "Twitter Card data", "Schema itemprop"]
+                                    ,"ANTI SEO PRIVATE":["robots noindex"]
+                                    ,"OTHER":["geo", "keywords", "refresh", "dont use author, revisit, rating, expiration/date, copyright, abbstract, distribution, generator, cache-control, resource type"]
+                                }
+        }
+    }

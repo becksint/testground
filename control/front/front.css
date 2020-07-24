@@ -1,0 +1,78 @@
+/*IMPORT: normalise, defecto, template  :: syntax order POSITION DIMENSIONS-WHPM  COLOR FONT DECO*/
+@import url("https://bxeki.com/core/2020/v2/deco/normalize.css");
+@import url("https://bxeki.com/core/2020/v2/deco/defecto.css");
+
+.button01 		{ background: #ffcc00; color: #000; font-weight: bold;  padding: 10px 20px; margin: 10px 20px 0px 0px; display: inline-block; }
+.grey 			{ background: #eee; padding: 60px 0px; }
+
+.head 			{ position: sticky; top: 0px; background-color: #fff; box-shadow: 0px 3px 3px rgba(0,0,0,0.2); padding-right: 4vw;  }
+.head .logo  	{ background: url('../../gallery/logo.png') no-repeat ; background-size: contain; background-position: 50px; padding-left: 100px; }
+
+.welcome { padding: 10vh 0px 0px; min-height: 90vh;  }
+.welcome article { background: #fff;  }
+.welcome figure { background: url('../../gallery/logo.png') no-repeat ; background-size: contain; position: absolute;top: 30vh;  right: 10vw; width: 300px; height: 300px;  }
+
+.section01, .section01R { align-content: center; }
+.section01 figure, .section01R figure { min-height: 30vw;  }
+.section01 article, .section01R article { padding: 50px 10px 10px; }
+.section01 figure { box-shadow: -15px 40px 0px rgba(30,30,30,1);  }
+.section01R figure { box-shadow: 10px -20px 0px #ffcc00;  }
+
+section.contact { background: #222; color: #fff; }
+section.contact a { color: #fff;  }
+
+#ourprojects { background-color: #eee; }
+.freebutton 	{ background: #000; color: #fff; padding: 5px 15px; display: inline-block; margin: 10px 0px; text-align: center; width: 200px; }
+.projects article { background: #ffcc00; padding: 20px 20px 60px;  box-shadow: 2px 3px 3px rgba(0,0,0,0.2); border-radius: 3px; position: relative; min-height: 130px; }
+.projects article h2 { font-size: 20px;  }
+.projects article h3 { font-size: 16px; font-weight: normal; font-style: italic; color: #fff; }
+.projects article .details span { padding: 0px 30px 0px 0px;  }
+.projects article a { background: #000; color: #fff; padding: 5px 15px; display: inline-block; margin: 20px 0px;  position: absolute; bottom: 0px;}
+
+.xslide             { max-width:100vw;   }
+.xslide>div         { width: 100%; /*height: 300px;*/ margin: 0px; display: grid; }
+.xslidenav button  { border:0px; padding: 5px 10px; text-align: center; background-color: transparent;  }
+.xslidenav ul      {  list-style: none; padding: 0px; display: inline-block;  }
+.xslidenav li     { display: inline-block; }
+.xslidenav li:hover     { background-color: #eee; }
+.xslidenavselected button { background-color: #333; color: #fff; }
+
+#gallery div div { min-height: 20vw;  }
+
+@media screen and (max-width: 550px) {
+.hair { display: none; }
+.head #logo { display: block; padding-left: 60px; background-position: 10px; background-size: 40px;  }
+.welcome figure { position: relative;  top: 20px; right: 0px; left: 0px; margin: auto;  }
+.section01R figure {  grid-row: 1; }
+.section01 figure, .section01R figure { min-height: 50vw;  }
+.section01 figure { box-shadow: -10px 15px 0px rgba(30,30,30,1);  }
+.section01R figure { box-shadow: -10px 15px 0px #ffcc00;  }
+}
+
+
+.logo-white  { background: url('../../gallery/logo-trading-white.png') no-repeat; background-size: contain; }
+.cover1  { background: url('../../gallery/cover1.jpg') no-repeat fixed; background-size: cover; background-position: right;}
+.pic001  { background: url('../../gallery/pic012.jpg') no-repeat; background-size: cover; }
+.pic002  { background: url('../../gallery/pic002.jpg') no-repeat; background-size: cover; }
+.pic003  { background: url('../../gallery/pic003.jpg') no-repeat; background-size: cover; }
+.pic004  { background: url('../../gallery/pic004.jpg') no-repeat; background-size: cover; }
+.pic005  { background: url('../../gallery/pic005.jpg') no-repeat; background-size: cover; }
+.pic006  { background: url('../../gallery/pic006.jpg') no-repeat; background-size: cover; }
+.pic007  { background: url('../../gallery/pic007.jpg') no-repeat; background-size: cover; }
+.pic008  { background: url('../../gallery/pic008.jpg') no-repeat; background-size: cover; }
+.pic009  { background: url('../../gallery/pic009.jpg') no-repeat; background-size: cover; }
+.pic010  { background: url('../../gallery/pic010.jpg') no-repeat; background-size: cover; }
+.pic011  { background: url('../../gallery/pic011.jpg') no-repeat; background-size: cover; }
+.pic012  { background: url('../../gallery/pic012.jpg') no-repeat; background-size: cover; }
+.pic013  { background: url('../../gallery/pic013.jpg') no-repeat; background-size: cover; }
+.pic014  { background: url('../../gallery/pic014.jpg') no-repeat; background-size: cover; }
+.pic015  { background: url('../../gallery/pic015.jpg') no-repeat; background-size: cover; }
+.pic016  { background: url('../../gallery/pic016.jpg') no-repeat; background-size: cover; }
+.pic017  { background: url('../../gallery/pic017.jpg') no-repeat; background-size: cover; }
+.pic018  { background: url('../../gallery/pic018.jpg') no-repeat; background-size: cover; }
+.pic019  { background: url('../../gallery/pic019.jpg') no-repeat; background-size: cover; }
+.pic020  { background: url('../../gallery/pic020.jpg') no-repeat; background-size: cover; }
+.pic021  { background: url('../../gallery/pic021.jpg') no-repeat; background-size: cover; }
+.pic022  { background: url('../../gallery/pic022.jpg') no-repeat; background-size: cover; }
+.pic023  { background: url('../../gallery/pic023.jpg') no-repeat; background-size: cover; }
+.pic024  { background: url('../../gallery/pic024.jpg') no-repeat; background-size: cover; }

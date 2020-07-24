@@ -1,0 +1,287 @@
+{
+	"tags":{
+				"__comment":"keep updating"
+				,"area":{ "type":"self", "attributes":[1,2,3] }
+				,"base":{ "type":"self", "attributes":[1,2,3] }				
+				,"col":{ "type":"self", "attributes":[1,2,3] }
+				,"command":{ "type":"self", "attributes":[1,2,3] }
+				,"embed":{ "type":"self", "attributes":[1,2,3] }				
+				,"iframe":{ "type":"self", "attributes":[1,2,3] }								
+				,"keygen":{ "type":"self", "attributes":[1,2,3] }				
+				,"menuitem":{ "type":"self", "attributes":[1,2,3] }				
+				,"param":{ "type":"self", "attributes":[1,2,3] }
+				,"source":{ "type":"self", "attributes":[1,2,3] }
+				,"track":{ "type":"self", "attributes":[1,2,3] }
+				,"wbr":{ "type":"self", "attributes":[1,2,3] }
+
+
+				,"img":{ "type":"self", "attributes":[1,2,3] }
+				,"figure":{ "type":"wrap", "attributes":[1,2,3] }
+				,"audio":{ "type":"wrap", "attributes":[1,2,3] }
+				,"video":{ "type":"wrap", "attributes":[1,2,3] }
+				,"object":{ "type":"wrap", "attributes":[1,2,3] }
+				,"param":{ "type":"empty", "attributes":[1,2,3] , "example":"<object data=\"horse.wav\"><param name=\"autoplay\" value=\"true\"></object>/"}
+
+				,"__comment":"basic"
+				,"html":{ "type":"wrap", "attributes":[1,2,3] }
+				,"head":{ "type":"wrap", "attributes":[1,2,3] }
+				,"title":{ "type":"wrap", "attributes":[1,2,3] }
+				,"script":{ "type":"wrap", "attributes":[1,2,3] }
+				,"style":{ "type":"wrap", "attributes":[1,2,3] }
+				,"link":{ "type":"self", "attributes":[1,2,3] }
+				,"meta":{ "type":"self", "attributes":[1,2,3] }
+
+				,"__comment2":"text"
+				,"pre":{ "type":"wrap", "attributes":[1,2,3] }
+				,"h1":{ "type":"wrap", "attributes":[1,2,3] }
+				,"h2":{ "type":"wrap", "attributes":[1,2,3] }
+				,"h3":{ "type":"wrap", "attributes":[1,2,3] }
+				,"h4":{ "type":"wrap", "attributes":[1,2,3] }
+				,"h5":{ "type":"wrap", "attributes":[1,2,3] }
+				,"h6":{ "type":"wrap", "attributes":[1,2,3] }
+				,"b":{ "type":"wrap", "attributes":[1,2,3] }
+				,"i":{ "type":"wrap", "attributes":[1,2,3] }
+				,"tt":{ "type":"wrap", "attributes":[1,2,3] }
+				,"code":{ "type":"wrap", "attributes":[1,2,3] }
+				,"cite":{ "type":"wrap", "attributes":[1,2,3] }
+				,"address":{ "type":"wrap", "attributes":[1,2,3] }
+				,"em":{ "type":"wrap", "attributes":[1,2,3] }
+				,"strong":{ "type":"wrap", "attributes":[1,2,3] }
+				,"p":{ "type":"wrap", "attributes":[1,2,3] }
+				,"blockquote":{ "type":"wrap", "attributes":[1,2,3] }	
+				,"span":{ "type":"wrap", "attributes":[1,2,3] }
+				,"time":{ "type":"wrap", "attributes":[1,2,3] }
+				,"small":{ "type":"wrap", "attributes":[1,2,3] }
+				,"source":{ "type":"wrap", "attributes":[1,2,3] }
+				,"strong":{ "type":"wrap", "attributes":[1,2,3] }
+				,"sub":{ "type":"wrap", "attributes":[1,2,3] }
+				,"sup":{ "type":"wrap", "attributes":[1,2,3] }
+				,"samp":{ "type":"wrap", "attributes":[1,2,3] }
+				,"q":{ "type":"wrap", "attributes":[1,2,3] }
+				,"abbr":{ "type":"wrap", "attributes":[1,2,3], "example":"The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948." }
+
+				,"__comment3":"structure and semantics"
+				,"div":{ "type":"wrap", "attributes":[1,2,3] }
+				,"article":{ "type":"wrap", "attributes":[1,2,3] }
+				,"header":{ "type":"wrap", "attributes":[1,2,3] }
+				,"main":{ "type":"wrap", "attributes":[1,2,3] }
+				,"footer":{ "type":"wrap", "attributes":[1,2,3] }
+				,"nav":{ "type":"wrap", "attributes":[1,2,3] }
+				,"section":{ "type":"wrap", "attributes":[1,2,3] }
+				
+
+				,"__comment3":"user interaction"
+				,"form":{ "type":"wrap", "attributes":[1,2,3] }
+				,"input":{ "type":"self", "attributes":[1,2,3] }
+				,"label":{ "type":"wrap", "attributes":[1,2,3] }
+				,"textarea":{ "type":"wrap", "attributes":[1,2,3] }
+				,"button":{ "type":"wrap", "attributes":[1,2,3] }
+				,"a":{ "type":"wrap", "attributes":[1,2,3] }
+				,"select":{ "type":"list", "wrap":"option", "grouping":"optgroup",  "attributes":[1,2,3] }
+				,"optgroup":{ "type":"list", "wrap":"option", "attributes":[1,2,3] }
+				,"option":{ "type":"wrap", "attributes":[1,2,3] }
+				,"progress":{ "type":"wrap", "attributes":[1,2,3] }
+				,"output":{ "type":"wrap", "attributes":[1,2,3] }
+				,"meter":{ "type":"wrap", "attributes":[1,2,3] }
+
+				,"__comment4":"lists"
+				,"ul":{ "type":"list", "wrap":"li", "attributes":[1,2,3] }
+				,"ol":{ "type":"list", "wrap":"li", "attributes":[1,2,3] }
+				,"dl":{ "type":"list", "wrap":"dd",  "groupingflat":"dt", "attributes":[1,2,3] }
+				,"li":{ "type":"wrap", "attributes":[1,2,3] }
+				,"dt":{ "type":"wrap", "attributes":[1,2,3] }
+				,"dd":{ "type":"wrap", "attributes":[1,2,3] }
+
+				,"__comment5":"graphical"
+				,"hr":{ "type":"empty", "attributes":[1,2,3] }
+				,"br":{ "type":"empty", "attributes":[1,2,3] }
+
+				,"__comment6":"lists"
+				,"table":{ "type":"list", "wrap":"tr",  "attributes":[1,2,3] }
+				,"tr":{ "type":"list", "wrap":["td", "th"], "attributes":[1,2,3] }
+				,"th":{ "type":"wrap", "attributes":[1,2,3] }
+				,"td":{ "type":"wrap", "attributes":[1,2,3] }
+				,"tbody":{ "type":"wrap", "attributes":[1,2,3] }
+				,"thead":{ "type":"wrap", "attributes":[1,2,3] }
+				,"tfoot":{ "type":"wrap", "attributes":[1,2,3] }
+		
+	}
+	,"taggroup": {
+					"global":["attributes checks taggroup key then goes to tags"]
+					,"ss":["area", "img", "input"]
+					,"inputs":["form","input"]
+					,"allinput":["button", "input", "select", "textarea"]
+					,"directory":["a", "area", "base", "link"]
+	}
+			
+	,"attributes":{
+					"accept":{"tag": "input" ,"info":"Specifies the types of files that the server accepts (only for type=\"file\")"}
+					,"accept-charset":{"tag": "form" ,"info":"Specifies the character encodings that are to be used for the form submission"}
+					,"accesskey":{"tag":"global" ,"info":"Specifies a shortcut key to activate/focus an element"}
+					,"action":{"tag": "form" ,"info":"Specifies where to send the form-data when a form is submitted"}
+					,"align":{"tag": "Not supported in HTML 5.", "info": "Specifies the alignment according to surrounding elements. Use CSS instead"}
+					,"alt":{"tag": ["area","img","input"] ,"info":"Specifies an alternate text when the original element fails to display"}
+					,"async":{"tag": "script" ,"info":"Specifies that the script is executed asynchronously (only for external scripts)"}
+					,"autocomplete":{"tag": ["form","input"] ,"info":"Specifies whether the <form or the <input element should have autocomplete enabled"}
+					,"autofocus":{"tag": ["button","input","select","textarea"] ,"info":"Specifies that the element should automatically get focus when the page loads"}
+					,"autoplay":{"tag": ["audio","video"] ,"info":"Specifies that the audio/video will start playing as soon as it is ready"}
+					,"bgcolor":{"tag": "Not supported in HTML 5.", "info": "Specifies the background color of an element. Use CSS instead"}
+					,"border":{"tag": "Not supported in HTML 5.", "info": "Specifies the width of the border of an element. Use CSS instead"}
+					,"charset":{"tag": ["meta","script"] ,"info":"Specifies the character encoding"}
+					,"checked":{"tag": "input" ,"info":"Specifies that an <input element should be pre-selected when the page loads (for type=\"checkbox\" or type=\"radio\")"}
+					,"cite":{"tag": ["blockquote","del","ins","q"] ,"info":"Specifies a URL which explains the quote/deleted/inserted text"}
+					,"class":{"tag":"global" ,"info":"Specifies one or more classnames for an element (refers to a class in a style sheet)"}
+					,"color":{"tag": "Not supported in HTML 5.", "info": "Specifies the text color of an element. Use CSS instead"}
+					,"cols":{"tag": "textarea" ,"info":"Specifies the visible width of a text area"}
+					,"colspan":{"tag": ["td","th"] ,"info":"Specifies the number of columns a table cell should span"}
+					,"content":{"tag": "meta" ,"info":"Gives the value associated with the http-equiv or name attribute"}
+					,"contenteditable":{"tag":"global" ,"info":"Specifies whether the content of an element is editable or not"}
+					,"controls":{"tag": ["audio","video"] ,"info":"Specifies that audio/video controls should be displayed (such as a play/pause button etc)"}
+					,"coords":{"tag": "area" ,"info":"Specifies the coordinates of the area"}
+					,"data":{"tag": "object" ,"info":"Specifies the URL of the resource to be used by the object"}
+					,"data-*":{"tag":"global" ,"info":"Used to store custom data private to the page or application"}
+					,"datetime":{"tag": ["del","ins","time"] ,"info":"Specifies the date and time"}
+					,"default":{"tag": "track" ,"info":"Specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate"}
+					,"defer":{"tag": "script" ,"info":"Specifies that the script is executed when the page has finished parsing (only for external scripts)"}
+					,"dir":{"tag":"global" ,"info":"Specifies the text direction for the content in an element"}
+					,"dirname":{"tag": ["input","textarea"] ,"info":"Specifies that the text direction will be submitted"}
+					,"disabled":{"tag": ["button","fieldset","input","optgroup","option","select","textarea"] ,"info":"Specifies that the specified element/group of elements should be disabled"}
+					,"download":{"tag": ["a","area"] ,"info":"Specifies that the target will be downloaded when a user clicks on the hyperlink"}
+					,"draggable":{"tag":"global" ,"info":"Specifies whether an element is draggable or not"}
+					,"dropzone":{"tag":"global" ,"info":"Specifies whether the dragged data is copied, moved, or linked, when dropped"}
+					,"enctype":{"tag": "form" ,"info":"Specifies how the form-data should be encoded when submitting it to the server (only for method=\"post\")"}
+					,"for":{"tag": ["label","output"] ,"info":"Specifies which form element(s) a label/calculation is bound to"}
+					,"form":{"tag": ["button","fieldset","input","label","meter","object","output","select","textarea"] ,"info":"Specifies the name of the form the element belongs to"}
+					,"formaction":{"tag": ["button","input"] ,"info":"Specifies where to send the form-data when a form is submitted. Only for type=\"submit\""}
+					,"headers":{"tag": ["td","th"] ,"info":"Specifies one or more headers cells a cell is related to"}
+					,"height":{"tag": ["canvas","embed","iframe","img","input","object","video"] ,"info":"Specifies the height of the element"}
+					,"hidden":{"tag":"global" ,"info":"Specifies that an element is not yet, or is no longer, relevant"}
+					,"high":{"tag": "meter" ,"info":"Specifies the range that is considered to be a high value"}
+					,"href":{"tag": ["a","area","base","link"] ,"info":"Specifies the URL of the page the link goes to"}
+					,"hreflang":{"tag": ["a","area","link"] ,"info":"Specifies the language of the linked document"}
+					,"http-equiv":{"tag": "meta" ,"info":"Provides an HTTP header for the information/value of the content attribute"}
+					,"id":{"tag":"global" ,"info":"Specifies a unique id for an element"}
+					,"ismap":{"tag": "img" ,"info":"Specifies an image as a server-side image-map"}
+					,"kind":{"tag": "track" ,"info":"Specifies the kind of text track"}
+					,"label":{"tag": ["track","option","optgroup"] ,"info":"Specifies the title of the text track"}
+					,"lang":{"tag":"global" ,"info":"Specifies the language of the element's content"}
+					,"list":{"tag": "input" ,"info":"Refers to a <datalist element that contains pre-defined options for an <input element"}
+					,"loop":{"tag": ["audio","video"] ,"info":"Specifies that the audio/video will start over again, every time it is finished"}
+					,"low":{"tag": "meter" ,"info":"Specifies the range that is considered to be a low value"}
+					,"max":{"tag": ["input","meter","progress"] ,"info":"Specifies the maximum value"}
+					,"maxlength":{"tag": ["input","textarea"] ,"info":"Specifies the maximum number of characters allowed in an element"}
+					,"media":{"tag": ["a","area","link","source","style"] ,"info":"Specifies what media/device the linked document is optimized for"}
+					,"method":{"tag": "form" ,"info":"Specifies the HTTP method to use when sending form-data"}
+					,"min":{"tag": ["input","meter"] ,"info":"Specifies a minimum value"}
+					,"multiple":{"tag": ["input","select"] ,"info":"Specifies that a user can enter more than one value"}
+					,"muted":{"tag": ["video","audio"] ,"info":"Specifies that the audio output of the video should be muted"}
+					,"name":{"tag": ["button","fieldset","form","iframe","input","map","meta","object","output","param","select","textarea"] ,"info":"Specifies the name of the element"}
+					,"novalidate":{"tag": "form" ,"info":"Specifies that the form should not be validated when submitted"}
+					,"onabort":{"tag": ["audio","embed","img","object","video"] ,"info":"Script to be run on abort"}
+					,"onafterprint":{"tag": "body" ,"info":"Script to be run after the document is printed"}
+					,"onbeforeprint":{"tag": "body" ,"info":"Script to be run before the document is printed"}
+					,"onbeforeunload":{"tag": "body" ,"info":"Script to be run when the document is about to be unloaded"}
+					,"onblur":{"tag": "visible" ,"info":"Script to be run when the element loses focus"}
+					,"oncanplay":{"tag": ["audio","embed","object","video"] ,"info":"Script to be run when a file is ready to start playing (when it has buffered enough to begin)"}
+					,"oncanplaythrough":{"tag": ["audio","video"] ,"info":"Script to be run when a file can be played all the way to the end without pausing for buffering"}
+					,"onchange":{"tag": "visible" ,"info":"Script to be run when the value of the element is changed"}
+					,"onclick":{"tag": "visible" ,"info":"Script to be run when the element is being clicked"}
+					,"oncontextmenu":{"tag": "visible" ,"info":"Script to be run when a context menu is triggered"}
+					,"oncopy":{"tag": "visible" ,"info":"Script to be run when the content of the element is being copied"}
+					,"oncuechange":{"tag": "track" ,"info":"Script to be run when the cue changes in a <track element"}
+					,"oncut":{"tag": "visible" ,"info":"Script to be run when the content of the element is being cut"}
+					,"ondblclick":{"tag": "visible" ,"info":"Script to be run when the element is being double-clicked"}
+					,"ondrag":{"tag": "visible" ,"info":"Script to be run when the element is being dragged"}
+					,"ondragend":{"tag": "visible" ,"info":"Script to be run at the end of a drag operation"}
+					,"ondragenter":{"tag": "visible" ,"info":"Script to be run when an element has been dragged to a valid drop target"}
+					,"ondragleave":{"tag": "visible" ,"info":"Script to be run when an element leaves a valid drop target"}
+					,"ondragover":{"tag": "visible" ,"info":"Script to be run when an element is being dragged over a valid drop target"}
+					,"ondragstart":{"tag": "visible" ,"info":"Script to be run at the start of a drag operation"}
+					,"ondrop":{"tag": "visible" ,"info":"Script to be run when dragged element is being dropped"}
+					,"ondurationchange":{"tag": ["audio","video"] ,"info":"Script to be run when the length of the media changes"}
+					,"onemptied":{"tag": ["audio","video"] ,"info":"Script to be run when something bad happens and the file is suddenly unavailable (like unexpectedly disconnects)"}
+					,"onended":{"tag": ["audio","video"] ,"info":"Script to be run when the media has reach the end (a useful event for messages like \"thanks for listening\")"}
+					,"onerror":{"tag": ["audio","body","embed","img","object","script","style","video"] ,"info":"Script to be run when an error occurs"}
+					,"onfocus":{"tag": "visible" ,"info":"Script to be run when the element gets focus"}
+					,"onhashchange":{"tag": "body" ,"info":"Script to be run when there has been changes to the anchor part of the a URL"}
+					,"oninput":{"tag": "visible" ,"info":"Script to be run when the element gets user input"}
+					,"oninvalid":{"tag": "visible" ,"info":"Script to be run when the element is invalid"}
+					,"onkeydown":{"tag": "visible" ,"info":"Script to be run when a user is pressing a key"}
+					,"onkeypress":{"tag": "visible" ,"info":"Script to be run when a user presses a key"}
+					,"onkeyup":{"tag": "visible" ,"info":"Script to be run when a user releases a key"}
+					,"onload":{"tag": ["body","iframe","img","input","link","script","style"] ,"info":"Script to be run when the element is finished loading"}
+					,"onloadeddata":{"tag": ["audio","video"] ,"info":"Script to be run when media data is loaded"}
+					,"onloadedmetadata":{"tag": ["audio","video"] ,"info":"Script to be run when meta data (like dimensions and duration) are loaded"}
+					,"onloadstart":{"tag": ["audio","video"] ,"info":"Script to be run just as the file begins to load before anything is actually loaded"}
+					,"onmousedown":{"tag": "visible" ,"info":"Script to be run when a mouse button is pressed down on an element"}
+					,"onmousemove":{"tag": "visible" ,"info":"Script to be run as long as the  mouse pointer is moving over an element"}
+					,"onmouseout":{"tag": "visible" ,"info":"Script to be run when a mouse pointer moves out of an element"}
+					,"onmouseover":{"tag": "visible" ,"info":"Script to be run when a mouse pointer moves over an element"}
+					,"onmouseup":{"tag": "visible" ,"info":"Script to be run when a mouse button is released over an element"}
+					,"onmousewheel":{"tag": "visible" ,"info":"Script to be run when a mouse wheel is being scrolled over an element"}
+					,"onoffline":{"tag": "body" ,"info":"Script to be run when the browser starts to work offline"}
+					,"ononline":{"tag": "body" ,"info":"Script to be run when the browser starts to work online"}
+					,"onpagehide":{"tag": "body" ,"info":"Script to be run when a user navigates away from a page"}
+					,"onpageshow":{"tag": "body" ,"info":"Script to be run when a user navigates to a page"}
+					,"onpaste":{"tag": "visible" ,"info":"Script to be run when the user pastes some content in an element"}
+					,"onpause":{"tag": ["audio","video"] ,"info":"Script to be run when the media is paused either by the user or programmatically"}
+					,"onplay":{"tag": ["audio","video"] ,"info":"Script to be run when the media has started playing"}
+					,"onplaying":{"tag": ["audio","video"] ,"info":"Script to be run when the media has started playing"}
+					,"onpopstate":{"tag": "body" ,"info":"Script to be run when the window's history changes."}
+					,"onprogress":{"tag": ["audio","video"] ,"info":"Script to be run when the browser is in the process of getting the media data"}
+					,"onratechange":{"tag": ["audio","video"] ,"info":"Script to be run each time the playback rate changes (like when a user switches to a slow motion or fast forward mode)."}
+					,"onreset":{"tag": "form" ,"info":"Script to be run when a reset button in a form is clicked."}
+					,"onresize":{"tag": "body" ,"info":"Script to be run when the browser window is being resized."}
+					,"onscroll":{"tag": "visible" ,"info":"Script to be run when an element's scrollbar is being scrolled"}
+					,"onsearch":{"tag": "input" ,"info":"Script to be run when the user writes something in a search field (for <input=\"search\")"}
+					,"onseeked":{"tag": ["audio","video"] ,"info":"Script to be run when the seeking attribute is set to false indicating that seeking has ended"}
+					,"onseeking":{"tag": ["audio","video"] ,"info":"Script to be run when the seeking attribute is set to true indicating that seeking is active"}
+					,"onselect":{"tag": "visible" ,"info":"Script to be run when the element gets selected"}
+					,"onstalled":{"tag": ["audio","video"] ,"info":"Script to be run when the browser is unable to fetch the media data for whatever reason"}
+					,"onstorage":{"tag": "body" ,"info":"Script to be run when a Web Storage area is updated"}
+					,"onsubmit":{"tag": "form" ,"info":"Script to be run when a form is submitted"}
+					,"onsuspend":{"tag": ["audio","video"] ,"info":"Script to be run when fetching the media data is stopped before it is completely loaded for whatever reason"}
+					,"ontimeupdate":{"tag": ["audio","video"] ,"info":"Script to be run when the playing position has changed (like when the user fast forwards to a different point in the media)"}
+					,"ontoggle":{"tag": "details" ,"info":"Script to be run when the user opens or closes the <details element"}
+					,"onunload":{"tag": "body" ,"info":"Script to be run when a page has unloaded (or the browser window has been closed)"}
+					,"onvolumechange":{"tag": ["audio","video"] ,"info":"Script to be run each time the volume of a video/audio has been changed"}
+					,"onwaiting":{"tag": ["audio","video"] ,"info":"Script to be run when the media has paused but is expected to resume (like when the media pauses to buffer more data)"}
+					,"onwheel":{"tag": "visible" ,"info":"Script to be run when the mouse wheel rolls up or down over an element"}
+					,"open":{"tag": "details" ,"info":"Specifies that the details should be visible (open) to the user"}
+					,"optimum":{"tag": "meter" ,"info":"Specifies what value is the optimal value for the gauge"}
+					,"pattern":{"tag": "input" ,"info":"Specifies a regular expression that an <input element's value is checked against"}
+					,"placeholder":{"tag": ["input","textarea"] ,"info":"Specifies a short hint that describes the expected value of the element"}
+					,"poster":{"tag": "video" ,"info":"Specifies an image to be shown while the video is downloading, or until the user hits the play button"}
+					,"preload":{"tag": ["audio","video"] ,"info":"Specifies if and how the author thinks the audio/video should be loaded when the page loads"}
+					,"readonly":{"tag": ["input","textarea"] ,"info":"Specifies that the element is read-only"}
+					,"rel":{"tag": ["a","area","form","link"] ,"info":"Specifies the relationship between the current document and the linked document"}
+					,"required":{"tag": ["input","select","textarea"] ,"info":"Specifies that the element must be filled out before submitting the form"}
+					,"reversed":{"tag": "ol" ,"info":"Specifies that the list order should be descending (9,8,7...)"}
+					,"rows":{"tag": "textarea" ,"info":"Specifies the visible number of lines in a text area"}
+					,"rowspan":{"tag": ["td","th"] ,"info":"Specifies the number of rows a table cell should span"}
+					,"sandbox":{"tag": "iframe" ,"info":"Enables an extra set of restrictions for the content in an <iframe"}
+					,"scope":{"tag": "th" ,"info":"Specifies whether a header cell is a header for a column, row, or group of columns or rows"}
+					,"selected":{"tag": "option" ,"info":"Specifies that an option should be pre-selected when the page loads"}
+					,"shape":{"tag": "area" ,"info":"Specifies the shape of the area"}
+					,"size":{"tag": ["input","select"] ,"info":"Specifies the width, in characters (for <input) or specifies the number of visible options (for <select)"}
+					,"sizes":{"tag": ["img","link","source"] ,"info":"Specifies the size of the linked resource"}
+					,"span":{"tag": ["col","colgroup"] ,"info":"Specifies the number of columns to span"}
+					,"spellcheck":{"tag":"global" ,"info":"Specifies whether the element is to have its spelling and grammar checked or not"}
+					,"src":{"tag": ["audio","embed","iframe","img","input","script","source","track","video"] ,"info":"Specifies the URL of the media file"}
+					,"srcdoc":{"tag": "iframe" ,"info":"Specifies the HTML content of the page to show in the <iframe"}
+					,"srclang":{"tag": "track" ,"info":"Specifies the language of the track text data (required if kind=\"subtitles\")"}
+					,"srcset":{"tag": ["img","source"] ,"info":"Specifies the URL of the image to use in different situations"}
+					,"start":{"tag": "ol" ,"info":"Specifies the start value of an ordered list"}
+					,"step":{"tag": "input" ,"info":"Specifies the legal number intervals for an input field"}
+					,"style":{"tag":"global" ,"info":"Specifies an inline CSS style for an element"}
+					,"tabindex":{"tag":"global" ,"info":"Specifies the tabbing order of an element"}
+					,"target":{"tag": ["a","area","base","form"] ,"info":"Specifies the target for where to open the linked document or where to submit the form"}
+					,"title":{"tag":"global" ,"info":"Specifies extra information about an element"}
+					,"translate":{"tag":"global" ,"info":"Specifies whether the content of an element should be translated or not"}
+					,"type":{"tag": ["a","button","embed","input","link","menu","object","script","source","style"] ,"info":"Specifies the type of element"}
+					,"usemap":{"tag": ["img","object"] ,"info":"Specifies an image as a client-side image-map"}
+					,"value":{"tag": ["button","input","li","option","meter","progress","param"] ,"info":"Specifies the value of the element"}
+					,"width":{"tag": ["canvas","embed","iframe","img","input","object","video"] ,"info":"Specifies the width of the element"}
+					,"wrap":{"tag": "textarea" ,"info":"Specifies how the text in a text area is to be wrapped when submitted in a form"}
+	}
+}

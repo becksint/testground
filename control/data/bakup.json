@@ -1,0 +1,66 @@
+{
+    "ui":{
+        "core":{
+                    "color":""
+                    ,"typography":""
+                    ,"icons":{ "phone":"", "mail":"", "location":"", "calendar":""
+                               ,"prev":"", "next":"", "mobilenav":"", "search":"", "scroll":""
+                               ,"like":"", "star":"", "love":"", "dislike":""
+                               ,"cart":"" 
+                               ,"switchon":"", "switchoff":"", "tick":"", "cancel":""
+                               ,"chat":"", "person":"", "share":""
+                               ,"image":"", "play":"", "pause":"", "stop":"", "file":"", "download":""
+                               ,"facebook":"", "instagram":"", "twitter":"", "linkedin":""
+                               ,"add":"", "list":"", "settings":""
+
+                            }
+                    ,"illustration":""
+                    ,"images":""
+                    ,"audio":""
+                    ,"video":""
+                }
+
+        ,"navigation":{
+                            "menus":""
+                            ,"breadcrumbs":""
+                            ,"tags":""
+                            ,"category":""
+                            ,"tabs":""
+                            ,"pagination":""
+                     }
+        ,"interaction":{
+                            "radio":""
+                            ,"checkbox":""
+                            ,"range":""
+                            ,"selectdate":""
+                            ,"search":""
+                            ,"calendar":""
+                            ,"quantity":""
+                            ,"switch":""
+                            ,"dropdown":""
+                            ,"button":""
+                            ,"rating":""
+                            ,"audioplayer":""
+                            ,"videoplayer":""
+                            ,"slide":""
+
+
+                        }
+        ,"stats":{
+                        "loading":"c"
+                        ,"chart":""
+                        ,"barchart":""
+                        ,"success":""
+                        ,"failure":""
+                        ,"popoup":""
+                        ,"tooltip":""
+                        ,"notfication":""
+                        ,"progress":""
+                }
+        ,"info":{
+                        "landing":""
+                        ,"section":""
+                        ,"card":""
+                }
+    }
+}

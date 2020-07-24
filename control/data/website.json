@@ -1,0 +1,300 @@
+{
+"profile":  {
+	"domain":{"local": "http://localhost/bxeki/clients/manyaka", "test":"https://bxeki.com", "live":"https://manyaka.co.za", "mum":"https://satag.co.za/core/api"  }
+	,"owner":{"name":"Manyaka Trading"	,"description":"intro to company" }
+	,"contact":{     "email":[{ "mail":"info@manyaka.co.za", "name":"Info" }
+								,{ "mail":"mojalodi@manyaka.co.za", "name":"Mojalodi"}
+								, { "mail":"tseke@manyaka.co.za", "name":"Tseke" }]
+				    , "tel":[{"country":"27",  "number":"835688170"}]
+				    , "fax":[{"country":"27",  "number":"862295332"}]
+					, "social":[
+									 {"url":"https://www.facebook.com/Manyaka-102072051548175"	, "symbol":"&#xf30c;", "name":"Facebook"}
+									,{"url":"https://www.instagram.com/mayakatrading"	, "symbol":"&#xf32d;", "name":"Instagram"}
+									,{"url":"https://wa.me/27835688170"			, "symbol":"&#xf232;", "name":"Whatsapp"}
+								]
+					, "address":[ {"street":"1235a Dumisa str", "surburb":"Emndeni South", "town":"Soweto", "province":"Gauteng", "country":"", "postal":"1868", "gps":""   }
+								 ,{"street":"1 La Mouette Bishop Bird str", "surburb":"Wierda Park", "town":"Centurion", "province":"Gauteng", "country":"", "postal":"0157", "gps":""   } 
+								]
+				}
+	,"legal":{
+				"name":"Manyaka Trading Pty ltd"
+				,"Company registration No." 	:	"2013/130990/07"
+				,"Income Tax Reference"			:	"9229059168"
+				,"UIF Reference No."			:	"1957163 / 6"
+				,"CIDB CRS No."					:	"109023"
+				,"Grade"						:	"6GB PE"
+				,"NHBRC Reg No."				:	"35298"
+				,"CSD"                			:  	"MAAA 0089948"
+				,"Compensation  Reg No."		:	"2610 - 167 – 0512"
+			}
+	,"finance":{
+ 					"bank":[{"bank":"ABSA", "acc":"9150397229", "code" : "632005", "branch":"Rosebank", "swift":"ZABJWW", "type":"savings" }]
+				}	
+	,"navigation":{
+					"1":[
+							{"navstatus":1, "page":1, "section":1, "id":"about" , "name":"Our History", "child":"" }
+							,{"navstatus":1, "page":1, "section":2, "id":"services" , "name":"Services", "child":"" }			
+							,{"navstatus":1, "page":1, "section":5, "id":"projects" , "name":"Projects", "child":"" }
+							,{"navstatus":1, "page":1, "section":1, "id":"contact" , "name":"Contact Us", "child":"" }
+					]
+	}
+	,"ui":{
+			  "color":{ "vdark":"", "dark":"", "mid":"", "light":"", "vlight":"", "extra":"" }
+			 ,"type":{"serious":"", "basic":"", "fun":""}
+			 ,"iconset":{"setname":"--- pick 1 ---", "ascents":"" }
+			 ,"brand":{"logo":"----files---", "icons":"-----", "patterns":"-----"}
+			 ,"graphics":{"illustrations":"----- 24 max ------", "backgrounds":"---24 max----" }
+	}
+	,"system":{
+					"language":"en-US"
+					,"expires":""
+					,"title":"Company Name"
+					,"description":"intro to company"
+					, "default":"<meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+					,"head":{
+								"must":{ "charset":"UTF-8", "viewport":"width=device-width, initial-scale=1"}
+								,"mustdynamic":{"lang":"en-US", "base":"", "title 60 characters":"", "description 155 characters":""}
+								,"SEO":["Open Graph data og:", "Twitter Card data", "Schema itemprop"]
+								,"ANTI SEO PRIVATE":["robots noindex"]
+								,"OTHER":["geo", "keywords", "refresh", "dont use author, revisit, rating, expiration/date, copyright, abbstract, distribution, generator, cache-control, resource type"]
+							}
+	}
+}
+,"lists":{
+			
+			"locations":""			
+			,"externallinks":"list of all websites"
+			,"apis":{"slick":[{"file":"slick.min.js", "path":"slick/", "type":"javascript"} 
+								,{"file":"slick-theme.css", "path":"slick/", "type":"css"} 
+								,{"file":"slick.css", "path":"slick/", "type":"css"}]
+					 , "showoffer":[{"code":"showOffer('projects','projects');", "type":"inlinejs"}]
+					}
+			,"benefits":{
+				"services":[{"name":"Instant access", "description":"Easily gain access to diploma and degree students/graduates which meet your criteria within a short space of time. Allowing businesses to fill in labour/skill needs on demand."}
+							,{"name":"Fresh approaches", "description":"Interns bring a fresh approach to your business, challenge the norm, offer skills and methods that may give your business a valuable advatange."}
+							,{"name":"Scalable", "description":"Our platform allows for easy scaling of short and long term labour. This allows you to get a feel of the right candidate from a vast number of interns with different experiences and skill levels."}
+							,{"name":"Experience", "description":"", "icon":""}
+							,{"name":"Earn", "description":"", "icon":""}
+							,{"name":"Network", "description":"", "icon":""}
+							,{"name":"Resources", "description":"", "icon":""}
+							]
+			}
+			,"specs":[			 {"name":"default_specs", "note":"pure units without any ties to data and which do not change -- ideal for available sizes, etc, duplicates allowed, linked to categories" }
+								,{"name":"minimum quantity", "number":2.5,  "unit":"L"}
+								,{"number":5, "unit":"L"}
+								,{"number":25, "unit":"L"}
+								,{"number":500, "unit":"g"}
+								,{"number":1, "unit":"kg"}
+								,{"number":25, "unit":"kg"}
+								,{"number":12, "unit":"pack", "note":"for count, boxes, packs, etc - variety of units can be given pk, pack, /pk"}
+								,{"name":"0ml to 100ml", "range":[0, 100] , "unit":"ml"}
+							]
+			,"feature":[
+								{ "name":"B50 Socket" 	}
+								,{ "name":"B24 Cone" 	}
+			]
+			,"conditions":[
+								{"name":"Room Temperature", "specs":[2, 3] 	}
+			]
+			,"people":""
+			,"branches":""
+			,"validate":"https://validator.w3.org  "
+			,"images":{"covers":"", "pics":"", "illustrations":"", "icons":"", "symbols":""}
+			,"clients":""
+
+}
+,"categories":[
+					 {"sudo":"", "name":"", "kids":["list of direct child elements"], "relate":["link strength, relation type:parallel"] }
+					,{"sudo":"about", "name":"", "kids":"" }
+					,{"sudo":"products", "name":"Products", "kids":[3,4] }
+					,{"sudo":"glassware", "name":"Glassware", "kids":"" }
+					,{"sudo":"plasticware", "name":"Plasticware", "kids":"" }
+			]
+,"pages":{
+			"index":{
+							"name":{"name":"Home", "intro":"Short description of the page limited to X characters" 	}
+							,"control":{"expires":"for offers", "robots":"noindex", "date":"date written for articles"}
+							,"sections":[
+											 {"template":"section01", "background":"",  "content":{"identity":"one", "cards":"products"}}
+											,{"template":"section01", "vary":"reverse",  "background":"",  "content":{"identity":"one", "cards":"products"}}
+										]
+				}
+				,"1":{	"name":"Manyaka Trading"
+						, "path":"index.php"
+						, "file":"index.php"
+						, "description":"This company was formed as Building / Civil Construction Company by Ms. Tebogo Maisela(now has resigned) and Mr. Tseke Mphahlele in 2005."
+						, "control":{"expires":"for offers", "robots":"noindex", "date":"date written for articles"}
+						, "sections":[ 	{"navigation":"1"}
+										,{"template":"welcome","style":"1", "background":"cover1",  "section":"1", "id":"about"}
+										,{"template":"standard","style":"2", "background":"cover1",  "section":"2", "id":"services"}
+										,{"template":"standard","style":"1", "background":"cover1",  "section":"3"}
+										,{"template":"standard","style":"2", "background":"cover1",  "section":"4"}
+										,{"template":"standard","style":"1", "background":"cover1",  "section":"5"}
+										,{"template":"standard","style":"2", "background":"cover1",  "section":"6"}
+										,{"template":"standard","style":"1", "background":"cover1",  "section":"7"}
+										,{"template":"standard","style":"2", "background":"cover1",  "section":"8"}
+										,{"template":"standard","style":"4", "background":"cover1",  "section":"10", "id":"ourprojects" }										
+										,{"template":"contact","style":"1", "background":"cover1",  "section":"11", "id":"contact"}
+									 ]
+						, "api":["showoffer"]
+					  
+					}
+				,"2": {"name":"Projects"
+						,"cache":""
+						,"expires":""
+						,"path":"projects.php"
+						, "file":"projects.php"
+						, "description":"Short description of the page limited to X characters"
+						, "sections":[{"hair":"1"},{"navigation":"1"}, {"template":"standard","style":"4", "background":"cover1",  "section":"12", "id":"ourprojects" }]
+						, "api":["showoffer"]  
+					  }
+				,"3": {"name":"Project"
+						,"cache":""
+						,"expires":""
+						,"path":"project.php"
+						, "file":"project.php"
+						, "description":"Short description of the page limited to X characters"
+						, "sections":[2, 1, 6]
+						, "api":["slick"]  
+					  }
+}
+
+
+,"templates":{ 
+	"welcome":{ "1":{"tag":"section", "content":[1,6], "attributes":{"class":["welcome", "cover1"], "data-name":"name" }, "data":{
+						 "1":{"tag":"article","content":[2,3,4] }
+						,"2":{"tag":"h2", "content":"name"			, "from":"names"}
+						,"3":{"tag":"p" , "content":"description"	, "from":"info"}
+						,"4":{"tag":"div", "content":[5] }
+						,"5":{"tag":"a"	, "content":"GET IN TOUCH" 	,"attributes":{"class":"button01", "href":"#contact"} }
+						,"6":{"tag":"figure", "content":"image"		, "from":"media" }	
+						}
+					}		
+			  }
+	,"basic":{
+				"1":{"tag":"article", "content":[1,2,3,4], "data":{
+						 "1":{"tag":"h2", "content":"name", "from":"names"}	
+						,"2":{"tag":"ul", "content":"ownership", "from":"specs"}																
+						,"3":{"tag":"p", "content":"description", "from":"info"}
+						,"4":{"tag":"ul", "content":"points", "from":"make"}
+						}
+					}
+			 }
+	,"standard":{
+				 "1":{"tag":"section","content":[1,2],"collect":[2], "group":"section",  "attributes":{"class":["section01", "twos"], "data-name":"name" },"data":{
+						"1":{"tag":"figure", "content":"image", "from":"media","collect":"image", "take":"1", "place":"images" }
+						,"2":{"tag":"article", "content":[3,4,5,6], "collect":[1,3,4,5,6], "take":1, "group":"section"}
+						,"3":{"tag":"h2", "content":"name", "from":"names","collect":"short", "take":"1" }																	
+						,"4":{"tag":"ul", "content":"ownership", "from":"specs","collect":"short", "take":"1" }
+						,"5":{"tag":"p", "content":"description", "from":"info","collect":"textarea", "take":"1" }
+						,"6":{"tag":"ul", "content":"points", "from":"make","collect":"short", "take":"20" }
+						
+						}
+					 }
+		  		,"2":{"tag":"section","content":[1,2], "attributes":{"class":["section01R", "twos"], "data-name":"name" },"data":{
+						"1":{"template":"basic", "style":"1"}
+						,"2":{"tag":"figure", "content":"image", "from":"media" }
+						}
+					}
+		  		,"4":{"tag":"section", "content":[1,2,3,4,5], "collect":[2], "attributes":{"class":["section01R", "ones", "cover1"], "data-name":"name" },"data":{
+						"1":{"tag":"h2", "content":"name", "from":"names"}	
+						,"2":{"tag":"ul", "content":"ownership", "from":"specs","collect":"short", "take":"1"}																
+						,"3":{"tag":"p", "content":"description", "from":"info"}
+						,"4":{"tag":"div", "content":"cards", "from":"control"}
+						,"5":{"tag":"a", "attributes":{"class":"freebutton", "href":"projects.php"}, "content":"SEE MORE PROJECTS"}					
+						}
+					}
+			  }
+	,"contact":{"1":{"tag":"section", "content":[1,2],"collect":[1], "group":"section", "attributes":{"class":["contact", "twos"] },"data":{  
+						"1":{"tag":"figure", "content":"image", "from":"media","collect":"image", "take":"1", "place":"images" }
+						,"2":{"tag":"article", "content":[3,7.14]}  
+						,"3":{"tag":"div", "attributes":{"class":"contact" }, "content":[4,5,6]}
+						,"4":{"tag":"h1", "content":"name", "from":"names"}
+						,"5":{"tag":"p", "content":"phone", "from":"contact"}
+						,"6":{"tag":"p", "content":"email", "from":"contact"}																	
+						,"7":{"tag":"form", "attributes":{"id":"contactform" }, "content":[8,9,10,11,12,13]}
+						,"8":{"tag":"input","attributes":{"type":"text", "name":"input[contact][name]", "placeholder":"Name" },  "content":"name"}
+						,"9":{"tag":"input","attributes":{"type":"text", "name":"input[contact][surname]", "placeholder":"Surname" },  "content":"surname" }
+						,"10":{"tag":"input","attributes":{"type":"email", "name":"input[contact][email]", "placeholder":"Email" },  "content":"email" }
+						,"11":{"tag":"input","attributes":{"type":"number", "name":"input[contact][mobile]", "placeholder":"Phone" }, "content":"mobile" }
+						,"12":{"tag":"textarea","attributes":{"name":"input[contact][message]", "placeholder":"Type Your message" }, "content":"" }
+						,"13":{"tag":"input","attributes":{"type":"submit", "value":"SEND" }, "content":"submit" }	
+						,"14":{"tag":"p", "content":"emails", "from":"contact"}	
+						}
+				    }
+				}
+}
+,"section":{
+	"1":{
+	 "media":{ "image":"logo" }
+	 ,"names":{"name": "COMPANY HISTORY"}
+	 ,"info":{ "description": ["This company was formed as Building / Civil Construction Company by Ms. Tebogo Maisela(now has resigned) and Mr. Tseke Mphahlele in 2005. "," Since the establishment it is now on par with government regulations. It is done with the aim and vision of providing employment to the unemployment and transferring skills. As the company still on the growing stage we started on small projects such as the renovations of Ekurhuleni Municipality Properties and recently with D.I.D for building maintenance and supply of various material."]}
+	}
+	,"2":{
+	"media":{ "image":"pic001" }
+	,"names":{"name": "CORE SERVICES" }
+	,"make": { "points": ["PAINTING","TILLING/FLOOR COVERING","CAPENTRY / PARTITIONS / CEILING / JOINERY / ROOFS","BRICK WORK / CONCRETE/FORMWORKS","WATERPROOFING","GLAZING","PLASTERING","PLUMBING","THATCH ROOFS","PAVING","STEEL STRUCTURES."]}
+	}
+	,"3":{         
+	"media":{ "image":"pic002"}
+	,"names":{"name": "OPERATION AND OWNERSHIP"}
+	,"info":{ "description": ["Tseke Mphahlele has previously worked as site manager at Denel Properties and Paragon Property Development, from where he was managing the operations on site.", "At the time he was involved in construction of commercial centre and residential including the playing grounds. ", " The biggest structure that Tseke has done for Denel Properties was valued for R24 Million Then in 2004 he moved to join overseas company called Hayes Monterose which based in London (UK)."]}
+	}
+	,"4":{ 
+	"media":{ "image":"pic003"}
+	,"names":{"name": "BLACK ECONOMIC EMPOWERMENT (BEE)" }
+	,"specs":{ "ownership": ["135% Procurement recognition", "100% Black ownership"] }
+	,"info":{"description":"MANYAKA TRADING Pty ltd occupied level 1 of BEE status."}
+	}
+	,"5":{ 
+	"media":{ "image":"pic004"}
+	,"names":{"name": "EMPOWERMENT"}
+	,"info":{"description":"The company is owned by the HDI black male and readily prepared to work with other small companies to empower each other and grow. This include other emerging companies owned by black females or youth. Joint ventures included."}
+	}
+	,"6":{ 												
+	"media":{ "image":"pic005"}
+	,"names":{"name": "SAFETY PROCEDURES / TRAINING"}
+	,"info":{ "description":["We work in accordance with the national occupational safety association (N.O.S.A.).  This program is supported by a strategy based on allocated responsibilities within the management hierarchy and participation of the individual within the work force.","We believe that quality workmanship is the product of a worker properly equipped with the skills and equipment in a healthy and safe environment.  Member of management for that specific division section or plant individually interviews every employee."]}
+	}
+	,"7":{ 
+	"media":{ "image":"pic006"}
+	,"names":{"name": "MANAGEMENT  PRINCIPLES"}
+	,"make": { "points": [ "Time factor","Clear cut duties and responsibilities","Level of communication from or top management","Excellent quality of work","Minimize shrinkage and loses","Keep client happy at all times"]}
+	 }
+	,"8":{ 
+	"media":{ "image":"pic007"}
+	,"names":{"name": "VALUES"}
+	,"make": { "points": ["Customer service","Safety","Training and development","Equity","Respect","Fair reward","Honesty","Environmental awareness","Community development","Staff advancement","Openness"]}
+	}
+	,"9":{ 
+	"media":{ "image":"pic008"}
+	,"names":{"name": "MANAGEMENT STRUCTURE/ORGANOGRAM"}
+	}
+	,"10":{
+	 "names":{"name": "PROJECTS COMPLETED", "file":"projects.json"}
+	 ,"control":{"id":"projects","class":["thrfees", "projects","slideframe"], "cards":[{"id":"projects","goto":"1",  "item":"projects", "display":"6", "specific":"all",  "style":"small", "filters":"no", "paginate":"no"}]  }
+	}
+	,"12":{
+	 "names":{"name": "PROJECTS COMPLETED", "file":"projects.json"}
+	 ,"control":{"id":"projects","class":["ones", "projects","slideframe"], "cards":[{"id":"projects","goto":"1", "item":"projects", "display":"3", "specific":3,  "style":"small", "filters":"no", "paginate":"no"}]  }
+	}
+	,"11" : {	"names":{"name": "Contact Us", "snynonym":["", ""], "sub":"", "brand":"" }
+				,"media":{"image":"logo-white" }	
+				,"contact":{"phone":[0], "email":[0], "emails":[1, 2]}	
+				,"info":{"description":"We are a top Asian consulting firm based in China, We specialize in Procurement, sourcing ,Market research ,Analysis and Public Relations."}
+				,"navigation":{"category":"", "tags":"", "link":""}
+		   }
+	,"default":{
+	"names":{ "name":"" , "sub":""}
+	,"projects":"DESCRIPTIONS COMPANY/CLIENTS REFERENCE AMOUNT DATE"
+	,"time":{ "enddate":""}
+	,"info":{ "description":"" }
+	,"location":{"city":""}
+	,"spec":{ "amount":"" }
+	,"contact":{"person":"", "phone":"", "email":""}
+	}
+}
+
+
+
+}

@@ -1,0 +1,21 @@
+{
+	"meta":{ "company":"", "emails":["info@manyaka.co.za"], "host":""     , "notifications":{"subscribe":0, "metrics":0} }
+	,"feedback": {
+		"success":"<span class='emailsent'>Sorry Message Could Not Be Sent. Please Try Again Later</span>"
+		,"fail":"<span class='emailsent'>Thank You For Being In Touch</span>"
+	}
+	,"mail": { "SMTPAuth":"true"
+				,"SMTPSecure":"PHPMailer::ENCRYPTION_STARTTLS"
+				,"smtp":""
+				,  "Port":"587"
+				, "Host":"mail.manyaka.co.za"
+				, "Username":"info@manyaka.co.za"
+				, "Password":"Business@2020"
+				, "from":{"email":"info@manyaka.co.za", "name":"Website Contact Alert"}
+				, "reply":{"email":"info@manyaka.co.za", "name":"Website Contact Alert"}
+				,"to":{"email":"info@manyaka.co.za", "name":"Website Contact Alert"}
+				, "cc":""
+				, "bcc":""  
+			}
+	,"metrics": {}
+}
