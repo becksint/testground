@@ -1,0 +1,289 @@
+{
+	"profile":  {
+	"domain":{"local": "http://localhost/bxeki/clients/manyaka", "test":"https://bxeki.com", "live":"https://manyaka.co.za" }
+	,"name":"Manyaka Construction"	
+	,"description":"intro to company"
+	,"contact":{     "email":[{ "mail":"info@manyaka.co.za", "name":"Info" }]
+				    , "tel":[{"country":"+27",  "number":"83 568 8170"}]
+				    , "fax":[{"country":"+27",  "number":"86 229 5332"}]
+					, "social":[
+									 {"url":"https://www.facebook.com/asiaunleashconsult/"									, "symbol":"&#xf30c;", "name":"Facebook"}
+									,{"url":"https://www.instagram.com/invites/contact/?i=6e8gi2f9qtfc&utm_content=eokmdjm"	, "symbol":"&#xf32d;", "name":"Instagram"}
+									,{"url":"https://wa.me/8618677353114"													, "symbol":"&#xf232;", "name":"Whatsapp"}
+								]
+					, "address":[ {"street":"1235a Dumisa str", "surburb":"Emndeni South", "town":"Soweto", "province":"Gauteng", "country":"", "postal":"1868", "gps":""   }
+								 ,{"street":"1 La Mouette Bishop Bird str", "surburb":"Wierda Park", "town":"Centurion", "province":"Gauteng", "country":"", "postal":"0157", "gps":""   } 
+								]
+				}
+	,"legal":{
+				"name":"Manyaka Trading Pty ltd"
+				,"Company registration No.":	"2013/130990/07"
+				,"Income Tax Reference"	:	"9229059168"
+				,"UIF Reference No."		:	"1957163 / 6"
+				,"CIDB CRS No."		:	"109023"
+				,"Grade"				:	"6GB PE"
+				,"NHBRC Reg No."		:	"35298"
+				,"CSD"                :  			"MAAA 0089948"
+				,"Compensation  Reg No."	:	"2610 - 167 – 0512"
+
+			}
+	,"finance":{
+					 "bank":[{"bank":"ABSA", "acc":"9150397229", "Branch Code" : "632004" }]
+				}
+
+	,"staff":"DIRECTOR: TSEKE MPHAHLELE MANYAKA TRADING  Pty Ltd C: 083 568 8170 E: info@manyaka.co.za"
+	,"sitemap":""	
+	,"buildup":["logo", "header", "menu", "static content", "entice", "call to action", "sidebar", "posts & feed aka cards", "external feeds -apis", "internal links", "external links", "forms", "buttons", "footer", "social links"]
+	,"importance":"edit, live, delete, order(swap)"
+	,"navigation":[
+					{"navstatus":1, "page":1, "section":1, "id":"about" , "name":"Who We Are", "child":"" }
+					,{"navstatus":1, "page":1, "section":2, "id":"whatwedo" , "name":"What We Do", "child":"" }
+					,{"navstatus":1, "page":1, "section":3, "id":"services" , "name":"Services", "child":[
+						{"navstatus":1, "page":1, "section":4, "id":"market" , "name":"Market Research", "child":""}
+						,{"navstatus":1, "page":1, "section":7, "id":"advisory" , "name":"Advisory", "child":"" }
+						,{"navstatus":1, "page":1, "section":5, "id":"procurement" , "name":"Procurement", "child":"" }
+						,{"navstatus":1, "page":1, "section":1, "id":"sourcing" , "name":"Sourcing", "child":"" }
+						,{"navstatus":1, "page":1, "section":8, "id":"public" , "name":"Public Relations", "child":"" }
+					 ] }					
+					,{"navstatus":1, "page":1, "section":5, "id":"client" , "name":"Clients", "child":"" }
+					,{"navstatus":1, "page":1, "section":1, "id":"contact" , "name":"Contact Us", "child":"" }
+
+	]
+	,"ui":{
+			 "color":{ "vdark":"", "dark":"", "mid":"", "light":"", "vlight":"", "extra":"" }
+			 ,"type":{"serious":"", "basic":"", "fun":""}
+			 ,"iconset":{"setname":""}
+	}
+	,"system":{
+					"language":"en-US"
+					,"expires":""
+					,"title":"Company Name"
+					,"description":"intro to company"
+					, "default":"<meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+					,"head":{
+								"must":{ "charset":"UTF-8", "viewport":"width=device-width, initial-scale=1"}
+								,"mustdynamic":{"lang":"en-US", "base":"", "title 60 characters":"", "description 155 characters":""}
+								,"SEO":["Open Graph data og:", "Twitter Card data", "Schema itemprop"]
+								,"ANTI SEO PRIVATE":["robots noindex"]
+								,"OTHER":["geo", "keywords", "refresh", "dont use author, revisit, rating, expiration/date, copyright, abbstract, distribution, generator, cache-control, resource type"]
+							}
+	}
+}
+
+
+,"section":{
+	"1":{
+	 "image":""
+	 ,"name": "company history"
+	 ,"description": "This company was formed as Building / Civil Construction Company by Ms. Tebogo Maisela(now has resigned) and Mr. Tseke Mphahlele in 2005.Since the establishment it is now on par with government regulations. It is done with the aim and vision of providing employment to the unemployment and transferring skills. As the company still on the growing stage we started on small projects such as the renovations of Ekurhuleni Municipality Properties and recently with D.I.D for building maintenance and supply of various material."
+	}
+	,"2":{
+	"name": "MAIN CORE BUSINESS"
+	,"make": ["PAINTING","TILLING/FLOOR COVERING","CAPENTRY/PARTITIONS/CEILING/JOINERY/ROOFS","BRICK WORK / CONCRETE/FORMWORKS","WATERPROOFING","GLAZING","PLASTERING","PLUMBING","THATCH ROOFS","PAVING","STEEL STRUCTURES."]
+	}
+	,"3":{         
+	"image":""
+	,"name": "OPERATION AND OWNERSHIP"
+	 ,"description": "Tseke Mphahlele has previously worked as site manager at Denel Properties and Paragon Property Development, from where he was managing the operations on site.  At the time he was involved in construction of commercial centre and residential including the playing grounds.  The biggest structure that Tseke has done for Denel Properties was valued for R24 Million Then in 2004 he moved to join overseas company called Hayes Monterose which based in London (UK)."
+	}
+	,"4":{ 
+	"name": "BLACK ECONOMIC EMPOWERMENT (BEE)"
+	,"specs":["135% Procurement recognition", "100% Black ownership"]
+	,"description":"MANYAKA TRADING Pty ltd occupied level 1 of BEE status."
+	}
+	,"5":{ 
+	"image":""
+	,"name": "EMPOWERMENT"
+	,"description":"The company is owned by the HDI black male and readily prepared to work with other small companies to empower each other and grow. This include other emerging companies owned by black females or youth. Joint ventures included."
+	}
+	,"6":{ 												
+	"image":""
+	,"name": "SAFETY PROCEDURES / TRAINING"
+	, "description":["We work in accordance with the national occupational safety association (N.O.S.A.).  This program is supported by a strategy based on allocated responsibilities within the management hierarchy and participation of the individual within the work force.","We believe that quality workmanship is the product of a worker properly equipped with the skills and equipment in a healthy and safe environment.  Member of management for that specific division section or plant individually interviews every employee."]
+	}
+	,"7":{ 
+	"image":""
+	,"name": "MANAGEMENT  PRINCIPLES"
+	,"make": [ "Time factor","Clear cut duties and responsibilities","Level of communication from or top management","Excellent quality of work","Minimize shrinkage and loses","Keep client happy at all times"]
+	 }
+	,"8":{ 
+	"image":""
+	,"name": "VALUES"
+	,"make": ["Customer service","Safety","Training and development","Equity","Respect","Fair reward","Honesty","Environmental awareness","Community development","Staff advancement","Openness"]
+	}
+	,"9":{ 
+	"image":""
+	,"name": "MANAGEMENT STRUCTURE/ORGANOGRAM"
+	}
+	,"10":{
+	 "names":{"name": "PROJECTS COMPLETED", "file":"projects.json"}
+	}
+	,"default":{
+	"names":{ "name":"" , "sub":""}
+	,"projects":"DESCRIPTIONS COMPANY/CLIENTS REFERENCE AMOUNT DATE"
+	,"time":{ "enddate":""}
+	,"info":{ "description":"" }
+	,"location":{"city":""}
+	,"spec":{ "amount":"" }
+	,"contact":{"person":"", "phone":"", "email":""}
+	}
+}
+ ,"projects":{
+		"1":{
+		"names":{ "name":"Construction of Shopping Complex" , "sub":"Paving and Concrete", "client":"Denel Properties"}
+		,"time":{ "enddate":"2005"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R100,000.00" }
+		,"contact":{"person":"Frank Mashabela", "phone":"073 728 6622", "email":""}
+		}
+		,"2":{
+		"names":{ "name":"Supply of plumbing material" ,  "client":"Ekurhuleni Metro Municipality"}
+		,"time":{ "enddate":"2006"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R30,000.00" }
+		,"contact":{"person":"Linda Nthate", "phone":["078 220 6848", "011 999 1523"], "email":""}
+		}
+
+		,"3":{
+		"names":{ "name":"Demolitions" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2007"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R180,000.00" }
+		}		
+		,"4":{
+		"names":{ "name":"Supply of Chemicals" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2008"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R200,000.00" }
+		}			
+		,"5":{
+		"names":{ "name":"Renovation of Clinic" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2009"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R30,000.00" }
+		}			
+		,"6":{
+		"names":{ "name":"Landscaping" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2009"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R165,000.00" }
+		}
+		,"7":{
+		"names":{ "name":"Landscaping" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2010"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R100,000.00" }
+		}	
+		,"8":{
+		"names":{ "name":"Construction of Paving" ,  "client":"Ekurhuleni Metro Municipal"}
+		,"time":{ "enddate":"2010"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R950,000.00" }
+		}
+		,"9":{
+		"names":{ "name":"Building Renovations/ Sports field" ,  "client":"Sports Trust"}
+		,"time":{ "enddate":"2010"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R375,000.00" }
+		,"contact":{"person":"Dida Malulyck", "phone":"072 714 5951", "email":""}
+		}		  			
+		,"10":{
+		"names":{ "name":"Renovation on existing houses" ,  "client":"Dept of public Works"}
+		,"time":{ "enddate":"2011"}
+		,"info":{ "description":"" }
+		,"location":{"city":""}
+		,"spec":{ "amount":"R460,000.00" }
+		,"contact":{"person":"Amin Jabaar", "phone":"011 296 2600", "email":""}
+		}  			
+		,"11":{
+		"names":{ "name":"Construction of residentials", "sub":"Brickwork" ,  "client":"Dept of public Works"}
+		,"time":{ "enddate":"2011"}
+		,"info":{ "description":"" }
+		,"spec":{ "amount":"R260,000.00" }
+		,"contact":{"person":"Frank Mashabela", "phone":"073 728 6622", "email":""}
+		} 
+		,"12":{
+		"names":{ "name":"Plumbing"}
+		,"time":{ "enddate":"2011"}
+		,"spec":{ "amount":"R261,000.00" }
+		} 		
+		,"13":{
+		"names":{ "name":"Upgrade of homes"}
+		,"time":{ "enddate":"2011"}
+		,"spec":{ "amount":"R 120 000.00" }
+		}		
+		,"14":{
+		"names":{ "name":"Upgrade of  clinic"}
+		,"time":{ "enddate":"2011"}
+		,"spec":{ "amount":"R580 000.00" }
+		}	
+		,"15":{
+		"names":{ "name":"Supply of Electrical materials"}
+		,"time":{ "enddate":"2011"}
+		,"spec":{ "amount":"R433 000.00" }
+		}	
+		,"16":{
+		"names":{ "name":"Refurbishment of Nigel Traffic Dept",  "client":"Nigel Traffic Dept"}
+		,"time":{ "enddate":"2011"}
+		,"spec":{ "amount":"R236 000.00" }
+		}
+		,"17":{
+		"names":{ "name":"Contsruction of cattle handling Facility"}
+		,"time":{ "enddate":"2015"}
+		,"spec":{ "amount":"R1 835 000.00" }
+		}	
+		,"18":{
+		"names":{ "name":"Refurbishment and Maintenance of Nursing Home"}
+		,"time":{ "enddate":["2017","2003"]}
+		,"spec":{ "amount":"R 15 353 000.00" }
+		,"location":{"city":"Eastern Cape"}
+		}
+		,"19":{
+		"names":{ "name":"Refurbishment and maintenance Of six clincs"}
+		,"time":{ "enddate":"2018"}
+		,"spec":{ "amount":"R14 081 035.18" }
+		,"location":{"city":"Free State"}
+		,"contact":{"person":"David Mkandla", "phone":"0823301258", "email":""}
+		}			
+		,"20":{
+		"names":{ "name":"Construction of Tlotlanang Creche",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"spec":{ "amount":"R 3 800 000.00" }
+		,"location":{"city":"Lephalale"}
+		,"contact":{"person":"Yonela", "phone":" 078 474 5414", "email":""}
+		}
+		,"21":{
+		"names":{ "name":"Construction of Ablution in Tsebo school",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"spec":{ "amount":"R 1 471 000.00" }
+		,"contact":{"person":"Phuthadithjaba", "phone":"011 800 5760", "email":""}
+		}
+		,"22":{
+		"names":{ "name":"Construction of Ablution In Vulindlela school",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"spec":{ "amount":"R 2 014 000.00" }
+		,"contact":{"person":"Unathi Pendu", "phone":"073 229 8171", "email":""}
+		,"location":{"city":"Harrismith"}
+		}
+		,"23":{
+		"names":{ "name":"Construction of Ablution In Ithlahaneleng school",  "client":"Eskom"}
+		,"time":{ "enddate":"2020"}
+		,"spec":{ "amount":"R 1 422 000.00" }
+		,"contact":{"person":"Unathi Pendu", "phone":"073 229 8171", "email":""}
+		,"location":{"city":"Harrismith"}
+		}
+}
+
+
+
+
+}
